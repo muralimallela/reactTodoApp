@@ -70,11 +70,11 @@ const App = () => {
   }
   return (
     <div className="container">
-      <div className="container col-5">
+      <div className="container">
         <form action="">
           <div className="input-group mb-4">
             <input type="text"
-              className="form-control col-"
+              className="form-control"
               placeholder="Enter any text"
               value={message.text}
               onChange={messageChange} />
